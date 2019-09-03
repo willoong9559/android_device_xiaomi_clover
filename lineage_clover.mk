@@ -22,7 +22,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-PRODUCT_NAME := lineage_whyred
+PRODUCT_NAME := lineage_clover
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
