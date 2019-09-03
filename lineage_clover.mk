@@ -23,18 +23,18 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 PRODUCT_NAME := lineage_clover
-PRODUCT_DEVICE := whyred
+PRODUCT_DEVICE := clover
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 5 Pro
+PRODUCT_MODEL := MI PAD 4
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-		TARGET_DEVICE="whyred" \
-		PRODUCT_NAME="whyred" \
-    PRIVATE_BUILD_DESC="whyred-user 9 PKQ1.180904.001 V10.3.1.0.PEICNXM release-keys"
+		TARGET_DEVICE="clover" \
+		PRODUCT_NAME="clover" \
+    PRIVATE_BUILD_DESC="clover-user 8.1.0 OPM1.171019.019 V10.2.1.0.ODJCNXM release-keys"
 
-BUILD_FINGERPRINT="xiaomi/whyred/whyred:9/PKQ1.180904.001/V10.3.1.0.PEICNXM:user/release-keys"
+BUILD_FINGERPRINT="Xiaomi/clover/clover:8.1.0/OPM1.171019.019/V10.2.1.0.ODJCNXM:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
