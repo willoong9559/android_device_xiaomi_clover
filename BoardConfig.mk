@@ -15,12 +15,12 @@
 #
 
 # Board device path
-DEVICE_PATH := device/xiaomi/whyred
+DEVICE_PATH := device/xiaomi/clover
 
 # Platform
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := sdm660
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno509
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno512
 
 # Architecture
 TARGET_ARCH := arm64
@@ -46,7 +46,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := whyred
+TARGET_OTA_ASSERT_DEVICE := clover
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
